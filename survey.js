@@ -5,6 +5,9 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+// A survey app which asks the user a bunch of questions like their favourite music, activity, food, sport, etc. 
+// It will then generate a profile description for them to use online.
+
 rl.question('What\'s your name? Nicknames are also acceptable :) ', (name) => {
   console.log(`Thank you ${name}`);
 
